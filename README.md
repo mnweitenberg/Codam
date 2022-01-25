@@ -48,7 +48,7 @@ The exams contain no bonuses so the maximum absolut score is 100%.</br>
         </tr>
         <tr>
             <td><a href=pipex/>pipex</a></td>
-            <td>This project consists of reproducing the behavior of the [shell pipe](https://www.geeksforgeeks.org/piping-in-unix-or-linux/), redirecting STDIN and STDOUT using [pipes](https://www.geeksforgeeks.org/pipe-system-call/).</td>
+            <td>This project consists of reproducing the behavior of the <a href=https://www.geeksforgeeks.org/piping-in-unix-or-linux/>shell pipe</a>, redirecting STDIN and STDOUT using <a href=https://www.geeksforgeeks.org/pipe-system-call/>pipes</a>.</td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
