@@ -1,5 +1,5 @@
 # Codam
-All my projects at [Codam Coding College](codam.nl). 
+All my projects at [Codam Coding College](https://codam.nl). 
 
 Maximum mark for the mandatory part of every assignment is 100%. </br>
 If the mandatory part is excellent it is possible to score up to 25% bonus points.</br>
