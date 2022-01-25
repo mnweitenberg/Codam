@@ -24,31 +24,31 @@ The exams contain no bonuses so the maximum absolut score is 100%.</br>
         </tr>
         <tr>
             <td><a href=get_next_line/>get_next_line</a></td>
-            <td></td>
+            <td>My implementation of the get_next_line function, similar to the getline from CPP and fgets from C</td>
             <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
             <td><a href=borntoberoot/>borntoberoot</a></td>
-            <td></td>
+            <td>Setting up a server running on Debian implementing strict rules (using VirtualBox)</td>
             <td>100%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
             <td><a href=ft_printf/>ft_printf</a></td>
-            <td></td>
+            <td>My reimplementation of the printf, the goal is to compile a library containing our our own version of the printf function</td>
             <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
             <td><a href=push_swap/>push_swap</a></td>
-            <td></td>
+            <td>This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting.</td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
             <td><a href=pipex/>pipex</a></td>
-            <td></td>
+            <td>This project consists of reproducing the behavior of the [shell pipe](https://www.geeksforgeeks.org/piping-in-unix-or-linux/), redirecting STDIN and STDOUT using [pipes](https://www.geeksforgeeks.org/pipe-system-call/).</td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
