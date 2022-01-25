@@ -18,6 +18,7 @@ The exams contain no bonuses so the maximum absolut score is 100%.
     <tbody>
         <tr>
             <td><a href=libft/>libft</a></td>
+            <td>Library of C functions</td>
             <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
