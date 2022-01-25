@@ -9,7 +9,7 @@ The exams contain no bonuses so the maximum absolut score is 100%.
 <table>
     <thead>
         <tr>
-            <th><h4>Project&lt;ctype.h&gt;</h4></th>
+            <th><h4>Project</h4></th>
             <th><h4>Description</h4></th>
             <th><h4>Mark</h4></th>
             <th><h4>Language</h4></th>
@@ -23,43 +23,43 @@ The exams contain no bonuses so the maximum absolut score is 100%.
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>get_next_line</a></td>
+            <td><a href=get_next_line/>get_next_line</a></td>
             <td></td>
             <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>borntoberoot</a></td>
+            <td><a href=borntoberoot/>borntoberoot</a></td>
             <td></td>
             <td>100%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>ft_printf</a></td>
+            <td><a href=ft_printf/>ft_printf</a></td>
             <td></td>
             <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>push_swap</a></td>
+            <td><a href=push_swap/>push_swap</a></td>
             <td></td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>pipex</a></td>
+            <td><a href=pipex/>pipex</a></td>
             <td></td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>fract-ol</a></td>
+            <td><a href=fract-ol/>fract-ol</a></td>
             <td></td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=libft/>exam rank 02</a></td>
+            <td><a href=exam rank 02/>exam rank 02</a></td>
             <td></td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
