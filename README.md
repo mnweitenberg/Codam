@@ -29,7 +29,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td><a href=borntoberoot/>borntoberoot</a></td>
+            <td><a href=born2beroot/>born2beroot</a></td>
             <td>Setting up a server running on Debian implementing strict rules (using VirtualBox)</td>
             <td>100%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
