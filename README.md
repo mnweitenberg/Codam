@@ -14,10 +14,6 @@ The exams contain no bonuses so the maximum absolut score is 100%.
             <th colspan=3><h4>Mark</h4></th>
             <th colspan=3><h4>Language</h4></th>
         </tr>
-        <tr>
-            <th>Libft</th>
-            <th>Description</th>
-        </tr>
     </thead>
     <tbody>
         <tr>
