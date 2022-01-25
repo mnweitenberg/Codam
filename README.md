@@ -9,17 +9,10 @@ The exams contain no bonuses so the maximum absolut score is 100%.
 <table>
     <thead>
         <tr>
-            <th colspan=3><h4>Project</h4></th>
-        <tr>
-        </tr>
-            <th colspan=3><h4>Description</h4></th>
-        <tr>
-        </tr>
-            <th colspan=3><h4>Mark</h4></th>
-        <tr>
-        </tr>
-        <tr>
-            <th colspan=3><h4>Language</h4></th>
+            <td colspan=3><h4>Project</h4></td>
+            <td colspan=3><h4>Description</h4></td>
+            <td colspan=3><h4>Mark</h4></td>
+            <td colspan=3><h4>Language</h4></td>
         </tr>
     </thead>
     <tbody>
