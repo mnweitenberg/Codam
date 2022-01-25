@@ -4,7 +4,7 @@ All my projects at Codam Coding College
 Maximum mark for the mandatory part of every assignment is 100%. </br>
 If the mandatory part is excellent it is possible to score up to 25% bonus points.</br>
 If the mandatory part is not flawless the bonuses will be totally ignored.</br>
-The exams contain no bonuses so the maximum absolut score is 100%.</br>
+The exams contain no bonuses so the maximum absolute score is 100%.</br>
 
 <table>
     <thead>
@@ -48,7 +48,7 @@ The exams contain no bonuses so the maximum absolut score is 100%.</br>
         </tr>
         <tr>
             <td><a href=pipex/>pipex</a></td>
-            <td>This project consists of reproducing the behavior of the <a href=https://www.geeksforgeeks.org/piping-in-unix-or-linux/>shell pipe</a>, redirecting STDIN and STDOUT using <a href=https://www.geeksforgeeks.org/pipe-system-call/>pipes</a>.</td>
+            <td>This project consists of reproducing the behavior of the <a target=blank href=https://www.geeksforgeeks.org/piping-in-unix-or-linux/>shell pipe</a>, redirecting STDIN and STDOUT using <a target=blank href=https://www.geeksforgeeks.org/pipe-system-call/>pipes</a>.</td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
