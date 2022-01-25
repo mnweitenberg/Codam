@@ -9,10 +9,10 @@ The exams contain no bonuses so the maximum absolut score is 100%.
 <table>
     <thead>
         <tr>
-            <td><h4>Project</h4></td>
-            <td><h4>Description</h4></td>
-            <td><h4>Mark</h4></td>
-            <td><h4>Language</h4></td>
+            <th><h4>Project&lt;ctype.h&gt;</h4></th>
+            <th><h4>Description</h4></th>
+            <th><h4>Mark</h4></th>
+            <th><h4>Language</h4></th>
         </tr>
     </thead>
     <tbody>
@@ -22,17 +22,48 @@ The exams contain no bonuses so the maximum absolut score is 100%.
             <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
+        <tr>
+            <td><a href=libft/>get_next_line</a></td>
+            <td></td>
+            <td>125%</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
+        <tr>
+            <td><a href=libft/>borntoberoot</a></td>
+            <td></td>
+            <td>100%</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
+        <tr>
+            <td><a href=libft/>ft_printf</a></td>
+            <td></td>
+            <td>125%</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
+        <tr>
+            <td><a href=libft/>push_swap</a></td>
+            <td></td>
+            <td>WIP</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
+        <tr>
+            <td><a href=libft/>pipex</a></td>
+            <td></td>
+            <td>WIP</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
+        <tr>
+            <td><a href=libft/>fract-ol</a></td>
+            <td></td>
+            <td>WIP</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
+        <tr>
+            <td><a href=libft/>exam rank 02</a></td>
+            <td></td>
+            <td>WIP</td>
+            <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+        </tr>
     </tbody>
 </table>
     
-|      Project     | Mark | Language |
-|:----------------:|:----:|:---------------:|:-:|
-|       libft      | 125% | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   get_next_line  | 125% | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   borntoberoot  | 100% | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     ft_printf    | 125% | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     push_swap    | WIP | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     pipex    | WIP | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     fract-ol    | WIP | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     exam rank 2    | WIP | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opengl/opengl-plain.svg" alt="opengl" width="40" height="40"/> |
