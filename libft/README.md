@@ -13,13 +13,13 @@ Libft is an individual project at [Codam](codam.nl) that requires us to re-creat
 - Rigor
 
 #### My grade
-<img src="score.png" width="150" height="150"/>
+<img src="../img/score125.png" width="150" height="150"/>
 
 ## Getting started
 **Follow the steps below**
 ```bash
 # Clone the project and access the folder
-git clone https://github.com/mnweitenberg/codam/libft.git
+git clone https://github.com/mnweitenberg/codam.git && cd codam/libft
 
 # Run Make so you can build the library
 make
@@ -36,7 +36,6 @@ clang main.c libft.a
 # Clean output objects with
 make fclean
 
-# Well done!
 ```
 
 ## Libft / C Standard Library table reference
