@@ -2,11 +2,11 @@
 
 void	*ft_calloc(int nmemb, size_t size)
 {
-	int	*ptr;
+	void	*ptr;
 
-	ptr = (void *)malloc (nmemb * size);
+	ptr = malloc (nmemb * size);
 	if (!ptr)
-		return (0);
+		return (NULL);
 	ft_bzero (ptr, nmemb * size);
 	return (ptr);
 }

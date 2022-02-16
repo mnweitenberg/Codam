@@ -9,12 +9,12 @@ static int	count_len(long n)
 		return (1);
 	if (n < 0)
 	{
-		n = n * -1;
+		n = -n;
 		i++;
 	}
 	while (n > 0)
 	{
-		n = n / 10;
+		n /= 10;
 		i++;
 	}
 	return (i);
@@ -30,7 +30,7 @@ static int	ft_pow(int base, int power)
 		i = 0;
 		pow = 1;
 		while (i++ < power)
-			pow = pow * base;
+			pow *= base;
 		return (pow);
 	}
 	else
@@ -43,7 +43,7 @@ static int	convert_int_to_char(long nbr, int len)
 
 	magnitude_of_nbr = ft_pow(10, len);
 	if (len)
-		nbr = nbr / magnitude_of_nbr;
+		nbr /= magnitude_of_nbr;
 	nbr = nbr % 10 + '0';
 	return (nbr);
 }
