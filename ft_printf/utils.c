@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   utils.c                                            :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: mweitenb <mweitenb@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/12/16 19:41:00 by mweitenb      #+#    #+#                 */
-/*   Updated: 2022/01/24 12:12:39 by mweitenb      ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_printf.h"
 
 int	ft_strlen(const char *str)
@@ -22,17 +10,10 @@ int	ft_strlen(const char *str)
 	return (i);
 }
 
-int	write_padding(char c, int size)
+void	write_padding(char c, int size)
 {
-	int		i;
-
-	i = 0;
-	while (i < size)
-	{
+	while (size-- > 0)
 		write(1, &c, 1);
-		i += 1;
-	}
-	return (i);
 }
 
 static int	is_space(char c)

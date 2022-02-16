@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   capture.c                                          :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: mweitenb <mweitenb@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/12/16 19:41:56 by mweitenb      #+#    #+#                 */
-/*   Updated: 2022/01/24 15:11:24 by mweitenb      ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_printf.h"
 
 static void	capture_flags(const char **input, t_flags *f)
@@ -34,6 +22,7 @@ static void	capture_flags(const char **input, t_flags *f)
 
 static void	capture_field_width(va_list ap, const char **input, t_flags *f)
 {
+	f->width = 0;
 	if (**input == '*')
 	{
 		*input += 1;
@@ -50,6 +39,7 @@ static void	capture_field_width(va_list ap, const char **input, t_flags *f)
 
 static void	capture_precision(va_list ap, const char **input, t_flags *f)
 {
+	f->precision = -1;
 	if (**input == '.')
 	{
 		*input += 1;
@@ -70,9 +60,6 @@ void	capture_flags_etc(t_flags *f, const char **input, va_list args)
 	f->alt = false;
 	f->space = 0;
 	f->sign = 0;
-	f->width = 0;
-	f->precision = -1;
-	f->specifier = 0;
 	capture_flags(input, f);
 	capture_field_width(args, input, f);
 	capture_precision(args, input, f);

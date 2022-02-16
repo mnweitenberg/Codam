@@ -1,25 +1,13 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   print_integer.c                                    :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: marvin <marvin@student.42.fr>                +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/12/16 19:41:44 by mweitenb      #+#    #+#                 */
-/*   Updated: 2022/01/24 20:00:45 by mweitenb      ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_printf.h"
 
-static void	atoi_value_into_buffer(char **buffer, size_t value,
+static void	atoi_value_into_buffer(char **value_str, size_t value,
 	char *characters, size_t base)
 {
-	**buffer = '\0';
+	**value_str = '\0';
 	while (value > 0)
 	{
-		*buffer -= 1;
-		**buffer = characters[value % base];
+		*value_str -= 1;
+		**value_str = characters[value % base];
 		value /= base;
 	}
 }
@@ -29,6 +17,20 @@ static int	calculate_size(int precision, int value_size, int pre_fix_char)
 	if (precision > value_size)
 		return (precision + pre_fix_char);
 	return (value_size + pre_fix_char);
+}
+
+static void	convert_int_to_string(char specifier, char **int_as_str, long value)
+{
+	if (f->specifier == 'u')
+		atoi_value_into_buffer(&value_str, value, "0123456789", 10);
+	else if (f->specifier == 'x' || f->specifier == 'p')
+		atoi_value_into_buffer(&value_str, value, "0123456789abcdef", 16);
+	else if (f->specifier == 'X')
+		atoi_value_into_buffer(&value_str, value, "0123456789ABCDEF", 16);
+	else if (value < 0)
+		atoi_value_into_buffer(&value_str, -value, "0123456789", 10);
+	else if (value >= 0)
+		atoi_value_into_buffer(&value_str, value, "0123456789", 10);
 }
 
 static int	print_padding_and_str(t_flags *f,
@@ -58,49 +60,24 @@ static int	print_padding_and_str(t_flags *f,
 	return (return_value);
 }
 
-int	print_int(t_flags *f, int value)
-{
-	char	buffer[11];
-	char	*value_str;
-	int		return_value;
-
-	value_str = buffer + 10;
-	if (value < 0)
-		atoi_value_into_buffer(&value_str,
-			(unsigned int) -value, "0123456789", 10);
-	else if (value >= 0)
-		atoi_value_into_buffer(&value_str, value, "0123456789", 10);
-	if (f->sign && value >= 0)
-		return_value = print_padding_and_str(f, value_str, "+");
-	else if (f->space && value >= 0)
-		return_value = print_padding_and_str(f, value_str, " ");
-	else if (value < 0)
-		return_value = print_padding_and_str(f, value_str, "-");
-	else
-		return_value = print_padding_and_str(f, value_str, "");
-	return (return_value);
-}
-
-int	print_hex(t_flags *f, size_t value)
+int	print_int(t_flags *f, long value)
 {
 	char	buffer[19];
 	char	*value_str;
-	int		return_value;
 
 	value_str = buffer + 18;
-	if (f->specifier == 'u')
-		atoi_value_into_buffer(&value_str, value, "0123456789", 10);
-	if (f->specifier == 'x' || f->specifier == 'p')
-		atoi_value_into_buffer(&value_str, value, "0123456789abcdef", 16);
-	if (f->specifier == 'X')
-		atoi_value_into_buffer(&value_str, value, "0123456789ABCDEF", 16);
+	convert_int_to_string(f->specifier, &int_as_str, value);
 	if (f->specifier == 'x' && f->alt && value != 0)
-		return_value = print_padding_and_str(f, value_str, "0x");
-	else if (f->specifier == 'X' && f->alt && value != 0)
-		return_value = print_padding_and_str(f, value_str, "0X");
-	else if (f->specifier == 'p')
-		return_value = print_padding_and_str(f, value_str, "0x");
-	else
-		return_value = print_padding_and_str(f, value_str, "");
-	return (return_value);
+		return (print_padding_and_str(f, value_str, "0x"));
+	if (f->specifier == 'X' && f->alt && value != 0)
+		return (print_padding_and_str(f, value_str, "0X"));
+	if (f->specifier == 'p')
+		return (print_padding_and_str(f, value_str, "0x"));
+	if (f->sign && value >= 0)
+		return (print_padding_and_str(f, value_str, "+"));
+	if (f->space && value >= 0)
+		return (print_padding_and_str(f, value_str, " "));
+	if (value < 0)
+		return (print_padding_and_str(f, value_str, "-"));
+	return (print_padding_and_str(f, value_str, ""));
 }

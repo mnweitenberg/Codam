@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   print_string.c                                     :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: mweitenb <mweitenb@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/12/16 19:41:40 by mweitenb      #+#    #+#                 */
-/*   Updated: 2022/01/24 12:12:36 by mweitenb      ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_printf.h"
 
 static int	print_padding_and_str(t_flags *f, const char *value, int size)
@@ -26,10 +14,7 @@ static int	print_padding_and_str(t_flags *f, const char *value, int size)
 
 int	print_chr(t_flags *f, int value)
 {
-	char	c;
-
-	c = value;
-	return (print_padding_and_str(f, &c, 1));
+	return (print_padding_and_str(f, &value, 1));
 }
 
 int	print_str(t_flags *f, const char *value)

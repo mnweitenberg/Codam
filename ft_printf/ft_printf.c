@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   ft_printf.c                                        :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: mweitenb <mweitenb@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2022/01/24 12:12:21 by mweitenb      #+#    #+#                 */
-/*   Updated: 2022/01/24 15:10:38 by mweitenb      ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_printf.h"
 
 static int	print_until_conversion_sign(const char *input)
@@ -34,9 +22,9 @@ static int	print_conversion(t_flags *f, va_list *args)
 	if (f->specifier == 'd' || f->specifier == 'i')
 		return (print_int(f, va_arg(*args, int)));
 	if (f->specifier == 'u' || f->specifier == 'x' || f->specifier == 'X')
-		return (print_hex(f, va_arg(*args, unsigned int)));
+		return (print_int(f, va_arg(*args, unsigned int)));
 	if (f->specifier == 'p')
-		return (print_hex(f, (size_t) va_arg(*args, void *)));
+		return (print_int(f, (size_t) va_arg(*args, void *)));
 	return (0);
 }
 

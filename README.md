@@ -43,7 +43,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
         <tr>
             <td><a href=push_swap/>push_swap</a></td>
             <td>This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting.</td>
-            <td>WIP</td>
+            <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
