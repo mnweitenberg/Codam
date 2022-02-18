@@ -42,7 +42,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
             <td>1</td>
             <td><a href=ft_printf/>ft_printf</a></td>
             <td>My reimplementation of the printf, the goal is to compile a library containing our our own version of the printf function</td>
-            <td><img src="img/score125.png" alt="125" width="100" height="100"/></td>
+            <td><img src="img/score125.png" alt="125%" width="50" height="50"/></td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
