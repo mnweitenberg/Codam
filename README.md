@@ -60,21 +60,21 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td>2</td>
+            <td><img src="img/rank2.png" alt="2" width="30" height="30"/></td>
             <td><a href=fract-ol/>fract_ol</a></td>
             <td></td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
-            <td>2</td>
+            <td><img src="img/rank2.png" alt="2" width="30" height="30"/></td>
             <td><a href=exam_rank_02/>exam_rank_02</a></td>
             <td></td>
             <td>WIP</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
 		 <tr>
-            <td>3</td>
+            <td><img src="img/rank3.png" alt="3" width="30" height="30"/></td>
             <td><a href=philosophers/>philosophers</a></td>
             <td></td>
             <td>WIP</td>
