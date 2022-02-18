@@ -42,7 +42,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
             <td>1</td>
             <td><a href=ft_printf/>ft_printf</a></td>
             <td>My reimplementation of the printf, the goal is to compile a library containing our our own version of the printf function</td>
-            <td>125%</td>
+            <td><img src="img/125.png" alt="125" width="40" height="40"/></td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
@@ -56,7 +56,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
             <td>2</td>
             <td><a href=pipex/>pipex</a></td>
             <td>This project consists of reproducing the behavior of the <a href=https://www.geeksforgeeks.org/piping-in-unix-or-linux/>shell pipe</a>, redirecting STDIN and STDOUT using <a href=https://www.geeksforgeeks.org/pipe-system-call/>pipes</a>.</td>
-            <td>WIP</td>
+            <td>125%</td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
