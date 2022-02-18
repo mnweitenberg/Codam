@@ -22,14 +22,14 @@ struct s_flags
 int		ft_printf(const char *fmt, ...);
 
 //	parse.c
-void	capture_flags_etc(t_flags *flags, const char **fmt, va_list args);
+void	parse(t_flags *flags, const char **fmt, va_list args);
 
 //	print_string.c
-int		print_chr(t_flags *flags, int value);
+int		print_char(t_flags *flags, int value);
 int		print_str(t_flags *flags, const char *value);
 
 //	print_integer.c
-int		print_int(t_flags *flags, int value);
+int		print_int(t_flags *flags, long value);
 
 //	utils.c
 int		ft_strlen(const char *str);

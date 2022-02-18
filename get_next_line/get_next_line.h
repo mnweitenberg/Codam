@@ -7,9 +7,8 @@
 
 size_t	ft_strlen(const char *str);
 char	*ft_strcpy(char *dst, const char *src);
-char	*merge_strings(char *s1, char *s2);
-int		str_contains_no_linebreak(char *str);
+int		str_contains_char(char *str, char c);
+int		count_chars_until_linebreak_or_end_of_str(char *str);
 char	*get_next_line(int fd);
-int		there_is_a_newline_within_backupstring(char *backup_str);
 
 #endif

@@ -1,6 +1,6 @@
-#include "ft_printf.h"
+#include "../inc/ft_printf.h"
 
-static void	atoi_value_into_buffer(char **value_str, size_t value,
+static void	convert_base(char **value_str, size_t value,
 	char *characters, size_t base)
 {
 	**value_str = '\0';
@@ -12,25 +12,25 @@ static void	atoi_value_into_buffer(char **value_str, size_t value,
 	}
 }
 
+static void	convert_int_to_string(char specifier, char **int_as_str, long value)
+{
+	if (specifier == 'u')
+		convert_base(int_as_str, value, "0123456789", 10);
+	else if (specifier == 'x' || specifier == 'p')
+		convert_base(int_as_str, value, "0123456789abcdef", 16);
+	else if (specifier == 'X')
+		convert_base(int_as_str, value, "0123456789ABCDEF", 16);
+	else if (value < 0)
+		convert_base(int_as_str, -value, "0123456789", 10);
+	else if (value >= 0)
+		convert_base(int_as_str, value, "0123456789", 10);
+}
+
 static int	calculate_size(int precision, int value_size, int pre_fix_char)
 {
 	if (precision > value_size)
 		return (precision + pre_fix_char);
 	return (value_size + pre_fix_char);
-}
-
-static void	convert_int_to_string(char specifier, char **int_as_str, long value)
-{
-	if (f->specifier == 'u')
-		atoi_value_into_buffer(&value_str, value, "0123456789", 10);
-	else if (f->specifier == 'x' || f->specifier == 'p')
-		atoi_value_into_buffer(&value_str, value, "0123456789abcdef", 16);
-	else if (f->specifier == 'X')
-		atoi_value_into_buffer(&value_str, value, "0123456789ABCDEF", 16);
-	else if (value < 0)
-		atoi_value_into_buffer(&value_str, -value, "0123456789", 10);
-	else if (value >= 0)
-		atoi_value_into_buffer(&value_str, value, "0123456789", 10);
 }
 
 static int	print_padding_and_str(t_flags *f,
@@ -63,21 +63,21 @@ static int	print_padding_and_str(t_flags *f,
 int	print_int(t_flags *f, long value)
 {
 	char	buffer[19];
-	char	*value_str;
+	char	*int_as_str;
 
-	value_str = buffer + 18;
+	int_as_str = buffer + 18;
 	convert_int_to_string(f->specifier, &int_as_str, value);
 	if (f->specifier == 'x' && f->alt && value != 0)
-		return (print_padding_and_str(f, value_str, "0x"));
+		return (print_padding_and_str(f, int_as_str, "0x"));
 	if (f->specifier == 'X' && f->alt && value != 0)
-		return (print_padding_and_str(f, value_str, "0X"));
+		return (print_padding_and_str(f, int_as_str, "0X"));
 	if (f->specifier == 'p')
-		return (print_padding_and_str(f, value_str, "0x"));
+		return (print_padding_and_str(f, int_as_str, "0x"));
 	if (f->sign && value >= 0)
-		return (print_padding_and_str(f, value_str, "+"));
+		return (print_padding_and_str(f, int_as_str, "+"));
 	if (f->space && value >= 0)
-		return (print_padding_and_str(f, value_str, " "));
+		return (print_padding_and_str(f, int_as_str, " "));
 	if (value < 0)
-		return (print_padding_and_str(f, value_str, "-"));
-	return (print_padding_and_str(f, value_str, ""));
+		return (print_padding_and_str(f, int_as_str, "-"));
+	return (print_padding_and_str(f, int_as_str, ""));
 }

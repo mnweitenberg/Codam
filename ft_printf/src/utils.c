@@ -1,4 +1,4 @@
-#include "ft_printf.h"
+#include "../inc/ft_printf.h"
 
 int	ft_strlen(const char *str)
 {
@@ -12,8 +12,14 @@ int	ft_strlen(const char *str)
 
 void	write_padding(char c, int size)
 {
-	while (size-- > 0)
+	int		i;
+
+	i = 0;
+	while (i < size)
+	{
 		write(1, &c, 1);
+		i += 1;
+	}
 }
 
 static int	is_space(char c)

@@ -1,4 +1,4 @@
-#include "ft_printf.h"
+#include "../inc/ft_printf.h"
 
 static int	print_padding_and_str(t_flags *f, const char *value, int size)
 {
@@ -12,9 +12,12 @@ static int	print_padding_and_str(t_flags *f, const char *value, int size)
 	return (size);
 }
 
-int	print_chr(t_flags *f, int value)
+int	print_char(t_flags *f, int value)
 {
-	return (print_padding_and_str(f, &value, 1));
+	char	c;
+
+	c = value;
+	return (print_padding_and_str(f, &c, 1));
 }
 
 int	print_str(t_flags *f, const char *value)

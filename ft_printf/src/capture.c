@@ -1,7 +1,12 @@
-#include "ft_printf.h"
+#include "../inc/ft_printf.h"
 
 static void	capture_flags(const char **input, t_flags *f)
 {
+	f->justification = 'R';
+	f->padding_character = ' ';
+	f->alt = false;
+	f->space = 0;
+	f->sign = 0;
 	while (1)
 	{
 		if (**input == '-')
@@ -20,13 +25,13 @@ static void	capture_flags(const char **input, t_flags *f)
 	}
 }
 
-static void	capture_field_width(va_list ap, const char **input, t_flags *f)
+static void	capture_field_width(va_list args, const char **input, t_flags *f)
 {
 	f->width = 0;
 	if (**input == '*')
 	{
 		*input += 1;
-		f->width = va_arg(ap, int);
+		f->width = va_arg(args, int);
 		if (f->width < 0)
 		{
 			f->width *= -1;
@@ -37,7 +42,7 @@ static void	capture_field_width(va_list ap, const char **input, t_flags *f)
 		f->width = ft_atoi(input);
 }
 
-static void	capture_precision(va_list ap, const char **input, t_flags *f)
+static void	capture_precision(va_list args, const char **input, t_flags *f)
 {
 	f->precision = -1;
 	if (**input == '.')
@@ -46,20 +51,15 @@ static void	capture_precision(va_list ap, const char **input, t_flags *f)
 		if (**input == '*')
 		{
 			*input += 1;
-			f->precision = va_arg(ap, int);
+			f->precision = va_arg(args, int);
 		}
 		else
 			f->precision = ft_atoi(input);
 	}
 }
 
-void	capture_flags_etc(t_flags *f, const char **input, va_list args)
+void	parse(t_flags *f, const char **input, va_list args)
 {
-	f->justification = 'R';
-	f->padding_character = ' ';
-	f->alt = false;
-	f->space = 0;
-	f->sign = 0;
 	capture_flags(input, f);
 	capture_field_width(args, input, f);
 	capture_precision(args, input, f);

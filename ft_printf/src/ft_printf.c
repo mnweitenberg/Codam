@@ -1,4 +1,4 @@
-#include "ft_printf.h"
+#include "../inc/ft_printf.h"
 
 static int	print_until_conversion_sign(const char *input)
 {
@@ -14,11 +14,11 @@ static int	print_until_conversion_sign(const char *input)
 static int	print_conversion(t_flags *f, va_list *args)
 {
 	if (f->specifier == 'c')
-		return (print_chr(f, va_arg(*args, int)));
+		return (print_char(f, va_arg(*args, int)));
 	if (f->specifier == 's')
 		return (print_str(f, va_arg(*args, const char *)));
 	if (f->specifier == '%')
-		return (print_chr(f, '%'));
+		return (print_char(f, '%'));
 	if (f->specifier == 'd' || f->specifier == 'i')
 		return (print_int(f, va_arg(*args, int)));
 	if (f->specifier == 'u' || f->specifier == 'x' || f->specifier == 'X')
@@ -44,7 +44,7 @@ int	ft_printf(const char *input, ...)
 		if (!input[len_printed_str])
 			break ;
 		input += len_printed_str + 1;
-		capture_flags_etc(&flags, &input, args);
+		parse(&flags, &input, args);
 		size += print_conversion(&flags, &args);
 	}
 	va_end(args);

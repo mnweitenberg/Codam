@@ -4,7 +4,6 @@ This project involves sorting data on a [stack](https://www.geeksforgeeks.org/st
 ### What is Push_swap?
 Push_swap is an individual project at [Codam](codam.nl) that requires us to create a program that sorts a stack(a) using an auxiliary stack(b) using specific commands: [sa, sb, ss, pa, pb, ra, rb, rr, rra, rrb and rrr](#game-rules). The challenge is to implement an algorithm that sorts with the least amount of operations possible, for example an entry of [100 numbers](https://numbergenerator.org/#!numbers=100&low=1&high=100&unique=true&csv=&oddeven=&oddqty=0&sorted=false&addfilters=) should not exceed 700 operations to reach the maximum score and for [500 random numbers](https://numbergenerator.org/#!numbers=500&low=0&high=499&unique=true&csv=&oddeven=&oddqty=0&sorted=false&addfilters=) the maximum is 5500 operations.
 As a bonus we must create a program that validates if the operations that the main program (push_swap) printed, orders stack(a) and checks if stack(b) remains empty at the end.
-The [algorithm](./sources/algo_a.c) used to order more than 10 arguments is a combination of selection sort and the idea of divide and conquer.
 
 *Check the operations [table](#game-rules) for a complete description of each operation or the [mini game](https://phemsi-a.itch.io/push-swap) by [phemsi-a](https://github.com/paulahemsi).
 
