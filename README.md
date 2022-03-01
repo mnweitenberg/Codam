@@ -61,9 +61,9 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
         </tr>
         <tr>
             <td><img src="img/rank2.png" alt="2" width="30" height="30"/></td>
-            <td><a href=fract-ol/>fract_ol</a></td>
-            <td></td>
-            <td>WIP</td>
+            <td><a href=fract-ol/>fract-ol</a></td>
+            <td>This project is designed to get familiar with the MiniLibX, to discover or use the mathematical notion of complex numbers, to take a peek at the concept of optimization in computer graphics and practice event handling.</td>
+            <td><img src="img/small125.png" alt="125%" width="40" height="40"/></td>
             <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
         </tr>
         <tr>
