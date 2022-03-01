@@ -45,7 +45,7 @@ When the program is running there are several options:
 <img src="stills/menu_options.jpg" width="1280" height="960"/>
 
 #### Some nice stills from my program
-<img src="stills/stills.gif" alt="Burning Ship" width="1276" height="1435">
+<img src="stills/stills.jpg" alt="Stills" width="1276" height="1435">
 
 ---
 
