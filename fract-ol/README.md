@@ -42,11 +42,10 @@ make fclean
 
 ## Options
 When the program is running there are several options:
-<img src="gifs/menu_options.jpg" width="1280" height="960"/>
+<img src="stills/menu_options.jpg" width="1280" height="960"/>
 
-#### Some gifs of my program in action
-Burning Ship with shifting colors
-<img src="gifs/burning_ship.gif" alt="Burning Ship" width="1280" height="960">
+#### Some nice stills from my program
+<img src="stills/stills.gif" alt="Burning Ship" width="1276" height="1435">
 
 ---
 
