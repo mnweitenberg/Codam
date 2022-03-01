@@ -46,7 +46,7 @@ When the program is running there are several options:
 
 #### Some gifs of my program in action
 Burning Ship with shifting colors
-<img src="gifs/burning_ship.gif" alt="Burning Ship" width="720" height="490">
+<img src="gifs/burning_ship.gif" alt="Burning Ship" width="1280" height="960">
 
 ---
 
