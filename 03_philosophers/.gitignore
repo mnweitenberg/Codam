@@ -1,0 +1,11 @@
+# *
+# !/philo/src/
+# !/philo/src/*.c
+# !/philo/inc/
+# !/philo/inc/*.h
+# !/philo/Makefile
+# !/philo_bonus/src/
+# !/philo_bonus/src/*.c
+# !/philo_bonus/inc/
+# !/philo_bonus/inc/*.h
+# !/philo_bonus/Makefile
