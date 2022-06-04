@@ -1,4 +1,6 @@
+#include <stdarg.h>
 #include "../inc/ft_printf.h"
+#include "../inc/utils.h"
 
 static void	capture_flags(const char **input, t_flags *f)
 {

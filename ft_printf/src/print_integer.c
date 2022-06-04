@@ -1,4 +1,6 @@
+#include <unistd.h>
 #include "../inc/ft_printf.h"
+#include "../inc/utils.h"
 
 static void	convert_base(char **value_str, size_t value,
 	char *characters, size_t base)

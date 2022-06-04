@@ -1,4 +1,6 @@
+#include <unistd.h>
 #include "../inc/ft_printf.h"
+#include "../inc/utils.h"
 
 static int	print_padding_and_str(t_flags *f, const char *value, int size)
 {
@@ -7,9 +9,7 @@ static int	print_padding_and_str(t_flags *f, const char *value, int size)
 	write(1, value, size);
 	if (f->justification == 'L')
 		write_padding(' ', f->width - size);
-	if (f->width > size)
-		return (f->width);
-	return (size);
+	return (ft_max(f->width, size));
 }
 
 int	print_char(t_flags *f, int value)

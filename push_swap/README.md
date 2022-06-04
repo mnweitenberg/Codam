@@ -146,4 +146,4 @@ b is empty
 
 ---
 
-Made by Milan N. Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)

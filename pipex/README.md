@@ -99,4 +99,4 @@ You can run any command that works in the shell and is in the PATH environment v
 
 ---
 
-Made by Milan N. Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)

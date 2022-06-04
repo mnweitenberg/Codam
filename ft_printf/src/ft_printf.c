@@ -1,4 +1,8 @@
+#include <unistd.h>
 #include "../inc/ft_printf.h"
+#include "../inc/capture.h"
+#include "../inc/print_integer.h"
+#include "../inc/print_string.h"
 
 static int	print_until_conversion_sign(const char *input)
 {

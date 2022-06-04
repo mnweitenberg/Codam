@@ -69,41 +69,41 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		<tr>
 			<td><img src="img/rank2.png" alt="2" width="30" height="30"/></td>
 			<td><a href=exam_rank_02/>exam_rank_02</a></td>
-			<td></td>
+			<td>In two hours time we have to complete two assignments (without an internet connection). </br>The first one is <a href=exam_rank_02/inter.c>inter</a> or <a href=exam_rank_02/union.c>union</a>. The second one is either <a href=exam_rank_02/ft_printf.c>ft_printf</a> or <a href=exam_rank_02/get_next_line.c>get_next_line</a>.</td>
 			<td><img src="img/small100.png" alt="100%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank3.png" alt="3" width="30" height="30"/></td>
 			<td><a href=philosophers/>philosophers</a></td>
-			<td></td>
+			<td>In computer science, The Dining Philosopher Problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them.</td>
 			<td><img src="img/small125.png" alt="125%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank3.png" alt="3" width="30" height="30"/></td>
 			<td><a href=minishell/>minishell</a></td>
-			<td></td>
+			<td>The objective of this project is to create a simple shell</td>
 			<td><img src="img/small125.png" alt="125%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank3.png" alt="3" width="30" height="30"/></td>
 			<td><a href=exam_rank_03/>exam_rank_03</a></td>
-			<td></td>
+			<td>In two hours time we have to complete two assignments (without an internet connection). </br>The first one is <a href=exam_rank_03/ft_split.c>ft_split</a> and the second one is a <a href=exam_rank_03/sorting_linked_list.c>linked list sorting algorithm</a>.</td>
 			<td><img src="img/small100.png" alt="100%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
-			<td><a href=cpp_modules/>C++ Modules</a></td>
+			<td><a href=cpp_modules/>c++ modules</a></td>
 			<td></td>
 			<td>WIP</td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
-			<td><a href=net_practice/>Net Practice</a></td>
+			<td><a href=net_practice/>net practice</a></td>
 			<td></td>
 			<td>WIP</td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
@@ -125,4 +125,4 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 	</tbody>
 </table>
 	
-Made by Milan N. Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)

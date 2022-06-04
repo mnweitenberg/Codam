@@ -1,40 +1,40 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/12/16 19:41:19 by mweitenb          #+#    #+#              #
-#    Updated: 2022/02/18 13:50:03 by marvin           ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+# VARIABLES
+NAME 			:= 	libftprintf.a
+CFLAGS			:=	-Wall -Wextra -Werror
+SANIT			:=	#-fsanitize=address -g
+CC				:= 	gcc
 
-NAME 		:= 	libftprintf.a
-CC			= 	gcc
-CFLAGS		= 	-Wall -Wextra -Werror
-AR			= 	ar rcs
-RM			= 	rm -f
-SRC			=	src/ft_printf.c 	\
-				src/capture.c 		\
-				src/print_string.c 	\
-				src/print_integer.c \
-				src/utils.c
-INCLUDE		=	inc/ft_printf.h
+# STATIC
+AR				= 	ar
+RM				=	rm -rf
+MKDIR_P			:=	mkdir -p
+FILES			:=	ft_printf	 	\
+					capture 		\
+					print_string 	\
+					print_integer	\
+					utils
+INC_DIR			=	./inc/
+SRC_DIR			=	./src/
+OBJ_DIR			=	./obj/
+INC				= 	$(addprefix $(INC_DIR), $(addsuffix .h, $(FILES)))
+SRC				= 	$(addprefix $(SRC_DIR), $(addsuffix .c, $(FILES)))
+OBJ				=	$(SRC:$(SRC_DIR)%.c=$(OBJ_DIR)%.o)
 
-OBJ			=	$(SRC:.c=.o)
+$(NAME)			:	$(OBJ_DIR) $(OBJ) $(INC) $(NAME)($(OBJ))
+$(OBJ_DIR)		:
+					$(MKDIR_P) $(OBJ_DIR)
+$(OBJ_DIR)%.o	:	$(SRC_DIR)%.c $(INC)
+					$(CC) -c $(CFLAGS) -o $@ $<
+$(NAME)(%.o)	:	$(OBJ_DIR)%.o
+					$(AR) $(NAME) $< 
 
-$(NAME)		: 	$(INCLUDE) $(OBJ) $(NAME)($(OBJ))
-%.o			: 	%.c $(INCLUDE)
-				$(CC) -c $(CFLAGS) -o $@ $<
-$(NAME)(%.o):	%.o
-				ar rcs $(NAME) $<
-all			: 	$(NAME)
-bonus		: 	$(NAME)
-clean		:
-				rm -f $(OBJ)
-fclean		:	clean
-				rm -f $(NAME)
-re			: 	fclean all
-norm		:
-				norminette $(SRC) $(INCLUDE)
+all				:	$(NAME)
+bonus			:	$(NAME)
+clean			:
+					$(RM) $(OBJ_DIR)
+fclean			:	clean
+					$(RM) $(NAME)
+re				: 	fclean all
+.PHONY			:	all bonus clean fclean re norm
+norm			:
+					@norminette $(SRC_DIR) $(INC_DIR)

@@ -13,4 +13,4 @@ Born2beroot is an individual project at [Codam](codam.nl) that requires us to cr
 
 ---
 
-Made by Milan N. Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
