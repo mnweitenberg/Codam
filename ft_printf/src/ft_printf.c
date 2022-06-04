@@ -44,7 +44,7 @@ int	ft_printf(const char *input, ...)
 		if (!input[len_printed_str])
 			break ;
 		input += len_printed_str + 1;
-		parse(&flags, &input, args);
+		capture(&flags, &input, args);
 		size += print_conversion(&flags, &args);
 	}
 	va_end(args);

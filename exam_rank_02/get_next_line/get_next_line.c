@@ -1,23 +1,23 @@
 #include "get_next_line.h"
 
-size_t  ft_strlen(const char *str)
+int	ft_strlen(char *str)
 {
-	int i = 0;
 	if (!str)
 		return (0);
+	int i = 0;
 	while (str[i])
 		i++;
 	return (i);
 }
 
-void	ft_strcpy(char *dst, const char *src)
+void	ft_strcpy(char *dst, char *src)
 {
 	while (*src)
 		*dst++ = *src++;
 	*dst = 0;
 }
 
-int str_contains_char(char *str, char c)
+int	str_contains_char(char *str, char c)
 {
 	while (*str)
 	{
@@ -27,34 +27,26 @@ int str_contains_char(char *str, char c)
 	return (0);
 }
 
-int count_chars_until_linebreak_or_end_of_str(char *str)
+char *merge_strings(char *old, char* buffer)
 {
-	int i = 0;
-	while (str[i] != '\n' && str[i])
-		i++;
-	return (i + 1);
-}
-
-char    *merge_strings(char *old, char *buffer)
-{
-	int		len_buffer = ft_strlen(buffer);
-	int		len_old = ft_strlen(old);
-	char    *new = (char *)malloc(sizeof(char) * (len_old + len_buffer + 1));
+	int old_len = ft_strlen(old);
+	int buf_len = ft_strlen(buffer);
+	char *new 	= (char *)malloc(old_len + buf_len + 1);
 	if (!old)
 		ft_strcpy(new, buffer);
 	else
 	{
 		ft_strcpy(new, old);
-		ft_strcpy(&new[len_old], buffer);
+		ft_strcpy(&new[old_len], buffer);
 		free(old);
 	}
 	return (new);
 }
 
-char    *read_fd_and_add_to_backup(int fd, char *backup)
+char	*read_fd_and_add_to_backup(int fd, char *backup)
 {
-	int     bytesread = 1;
-	char    buffer[BUFFER_SIZE + 1];
+	char	buffer[BUFFER_SIZE + 1];
+	int		bytesread = 1;
 	while (bytesread > 0)
 	{
 		bytesread = read(fd, buffer, BUFFER_SIZE);
@@ -71,13 +63,22 @@ char    *read_fd_and_add_to_backup(int fd, char *backup)
 	return (backup);
 }
 
-char    *copy_backup_until_linebreak(char *old)
+int count_chars_until_linebreak_or_end_of_str(char *str)
 {
-	int 	i = count_chars_until_linebreak_or_end_of_str(old);
-	char 	*new = (char *)malloc(sizeof(char) * (i + 2));
+	int i = 0;
+	while (str[i] && str[i] != '\n')
+		i++;
+	i++;
+	return (i);
+}
+
+char    *copy_backup_until_newline(char *old)
+{
+	int		i = count_chars_until_linebreak_or_end_of_str(old);
+	char	*new = (char *)malloc(sizeof(char) * (i + 2));
 	i = 0;
 	while (old[i] && old[i] != '\n')
-	{   
+	{
 		new[i] = old[i];
 		i++;
 	}
@@ -89,8 +90,8 @@ char    *copy_backup_until_linebreak(char *old)
 
 static char *update_backup(char *old)
 {
-	int 	start = count_chars_until_linebreak_or_end_of_str(old);
-	char    *new = (char *)malloc(sizeof(char) * (ft_strlen(old) + 1));
+	int		start = count_chars_until_linebreak_or_end_of_str(old);
+	char	*new = (char *)malloc(sizeof(char) * (ft_strlen(old) + 1));
 	if (str_contains_char(old, '\n'))
 		ft_strcpy(new, &old[start]);
 	else
@@ -99,16 +100,16 @@ static char *update_backup(char *old)
 	return (new);
 }
 
-char    *get_next_line(int fd)
+char	*get_next_line(int fd)
 {
-	static char     *backup;
-	char            *line;
+	static char	*backup;
+	char		*line;
 	if (fd < 0)
 		return (NULL);
 	backup = read_fd_and_add_to_backup(fd, backup);
 	if (!backup)
 		return (NULL);
-	line = copy_backup_until_linebreak(backup);
+	line = copy_backup_until_newline(backup);
 	backup = update_backup(backup);
 	return (line);
 }

@@ -1,8 +1,8 @@
 #include <unistd.h>
 
-int	char_is_in_str_2(char c, char *str)
+int char_is_in_str_2(char c, char *str)
 {
-	while (*str)
+	while(*str)
 	{
 		if (*str++ == c)
 			return (1);
@@ -10,31 +10,30 @@ int	char_is_in_str_2(char c, char *str)
 	return (0);
 }
 
-int	char_has_not_been_printed(char *str, int i)
+int char_has_been_printed(char c, char *str, int len)
 {
-	char	c = str[i];
-	while(i--)
+	while(len--)
 	{
-		if(c == str[i])
-			return (0);
+		if (str[len] == c)
+			return (1);
 	}
-	return (1);
+	return (0);
 }
 
 int	main(int argc, char **argv)
 {
-	int	i = 0;
 	if (argc == 3)
 	{
-		char *str_1 = argv[1];
-		char *str_2 = argv[2];
-		while(str_1[i])
+		char *one	= argv[1];
+		char *two	= argv[2];
+		int			i = 0;
+		while (one[i])
 		{
-			if (char_is_in_str_2(str_1[i], str_2) && char_has_not_been_printed(&str_1[0], i))
-				write(1, &str_1[i], 1);
+			if (char_is_in_str_2(one[i], two)
+				&& !char_has_been_printed(one[i], one, i))
+				write(1, &one[i], 1);
 			i++;
 		}
 	}
 	write(1, "\n", 1);
-	return (0);
 }

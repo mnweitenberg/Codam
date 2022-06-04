@@ -58,7 +58,7 @@ static void	capture_precision(va_list args, const char **input, t_flags *f)
 	}
 }
 
-void	parse(t_flags *f, const char **input, va_list args)
+void	capture(t_flags *f, const char **input, va_list args)
 {
 	capture_flags(input, f);
 	capture_field_width(args, input, f);

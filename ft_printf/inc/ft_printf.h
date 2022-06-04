@@ -22,7 +22,7 @@ struct s_flags
 int		ft_printf(const char *fmt, ...);
 
 //	parse.c
-void	parse(t_flags *flags, const char **fmt, va_list args);
+void	capture(t_flags *flags, const char **fmt, va_list args);
 
 //	print_string.c
 int		print_char(t_flags *flags, int value);
