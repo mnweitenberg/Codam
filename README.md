@@ -77,7 +77,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/rank3.png" alt="3" width="30" height="30"/></td>
 			<td><a href=philosophers/>philosophers</a></td>
 			<td>In computer science, The Dining Philosopher Problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them.</td>
-			<td><img src="img/small125.png" alt="125%" width="40" height="40"/></td>
+			<td><img src="img/small121.png" alt="121%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
