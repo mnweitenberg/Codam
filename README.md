@@ -103,7 +103,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		</tr>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
-			<td><a href=net_practice/>net practice</a></td>
+			<td><a href=net_practice/>net_practice</a></td>
 			<td>This project is a general practical exercise to let you discover networking.</td>
 			<td>WIP</td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
@@ -118,7 +118,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
 			<td><a href=exam_rank_04/>exam_rank_04</a></td>
-			<td>In two hours time (without an internet connection) we had to write a program that will behave like executing a shell command</td>
+			<td>In two hours time (without an internet connection) we had to write a program that behaves like executing a shell command</td>
 			<td><img src="img/small100.png" alt="100%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
