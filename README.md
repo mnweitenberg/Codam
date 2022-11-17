@@ -96,7 +96,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		</tr>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
-			<td><a href=cpp_modules/>c++ modules</a></td>
+			<td><a href=cpp/>c++ modules</a></td>
 			<td>The C++ modules is designed to help understand the specifities of the language when compared to C and object-oriented programming.</td>
 			<td>WIP</td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/></td>
