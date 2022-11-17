@@ -7,4 +7,11 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
 For a more detailed explanation of the subject and it's solutions, take a look at this excellent [repo](https://github.com/tblaase/Net_Practice) by [Tim Blaase](https://www.linkedin.com/in/tim-blaase-0aab501b0/)
 
+#### Skills
+- Network & system administration
+- Rigor
+
+#### My grade
+<img src="../img/score100.png" width="150" height="150"/>
+
 Made by: Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)

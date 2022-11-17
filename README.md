@@ -110,7 +110,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		</tr>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
-			<td><a href=mini_rt/>mini rt</a></td>
+			<td><a href=mini_rt/>mini_rt</a></td>
 			<td></td>
 			<td><img src="img/small125.png" alt="125%" width="40" height="40"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
@@ -127,7 +127,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><a href=inception/>inception</a></td>
 			<td>Scalable and stable infrastructure using Docker and Docker Compose.</td>
 			<td>WIP</td>
-			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/></td>
+			<td><img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain.svg" alt="docker" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
