@@ -1,7 +1,7 @@
 # MiniRT
 This is the second graphics project at [Codam](codam.nl), our first RayTracer with miniLibX.
 
-We had to create a raytracer from scratch. The only allowed functions are:
+We had to create a ray tracer from scratch. The only allowed functions are:
 - open, close, read, write, printf, malloc, free, perror, strerror, exit
 - all functions of the math library
 - all functions of the MinilibX
