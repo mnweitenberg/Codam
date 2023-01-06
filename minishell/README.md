@@ -54,5 +54,5 @@ make fclean
 ---
 
 Made by:
-Made by Jonathan Bedaux. [See my linkedin.](https://www.linkedin.com/in/jonathan-bedaux-62629466/)
-Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Jonathan Bedaux. [See my linkedin.](https://www.linkedin.com/in/jonathan-bedaux-62629466/)
+Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)

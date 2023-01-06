@@ -98,7 +98,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
 			<td><a href=cpp/>c++ modules</a></td>
 			<td>The C++ modules is designed to help understand the specifities of the language when compared to C and object-oriented programming.</td>
-			<td>WIP</td>
+			<td><img src="img/small100.png" alt="100%" width="40" height="40"/></td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/></td>
 		</tr>
 		<tr>
@@ -106,7 +106,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><a href=net_practice/>net_practice</a></td>
 			<td>This project is a general practical exercise to let you discover networking.</td>
 			<td><img src="img/small100.png" alt="100%" width="40" height="40"/></td>
-			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
@@ -131,10 +131,10 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		</tr>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
-			<td><a href=WIP/>webserv/ft_irc</a></td>
+			<td><a href=WIP/>webserv</a></td>
 			<td></td>
 			<td>WIP</td>
-			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
+			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
