@@ -12,7 +12,7 @@ In the mandatory part, a container with [nginx](https://www.nginx.com/resources/
 - Network & system administration
 
 #### My grade
-<img src="../img/score125.png" width="200" height="64"/>
+<img src="../img/score100_125.png" width="200" height="64"/>
 
 
 ## Getting started
