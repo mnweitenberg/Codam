@@ -1,7 +1,7 @@
 # Codam
 All my projects at [Codam Coding College](https://codam.nl). 
 
-Maximum mark for the mandatory part of every assignment is 100%. </br>
+Maximum score for the mandatory part of every assignment is 100%. </br>
 If the mandatory part is excellent it is possible to score up to 25% bonus points.</br>
 If the mandatory part is not flawless the bonuses will be totally ignored.</br>
 The exams contain no bonuses so the maximum absolute score is 100%.</br>
@@ -12,7 +12,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<th><h4>Rank</h4></th>
 			<th><h4>Project</h4></th>
 			<th><h4>Description</h4></th>
-			<th style="width:105px;"><h4>Mark</h4></th>
+			<th style="width:150px;"><h4>Score</h4></th>
 			<th><h4>Language</h4></th>
 		</tr>
 	</thead>
