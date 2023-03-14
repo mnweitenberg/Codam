@@ -42,7 +42,6 @@ http://localhost:4242
 # Clean output objects with
 make fclean
 
-# Well done!
 ```
 
 ---

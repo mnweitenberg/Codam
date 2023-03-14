@@ -54,7 +54,6 @@ make
 # Clean output objects with
 make fclean
 
-# Well done!
 ```
 
 #### Arguments

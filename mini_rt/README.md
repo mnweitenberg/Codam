@@ -38,7 +38,6 @@ make
 # Clean output objects with
 make fclean
 
-# Well done!
 ```
 
 #### Some nice stills from our program
