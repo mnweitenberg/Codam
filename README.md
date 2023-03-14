@@ -35,7 +35,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/rank1.png" alt="1" width="30" height="30"/></td>
 			<td><a href=born2beroot/>born2beroot</a></td>
 			<td>Setting up a server running on Debian implementing strict rules (using VirtualBox)</td>
-			<td><img src="img/small100.png" alt="100%" width="80" height="26"/></td>
+			<td><img src="img/small100_125.png" alt="100%" width="80" height="26"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="80" height="26"/></td>
 		</tr>
 		<tr>
