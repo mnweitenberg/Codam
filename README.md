@@ -21,14 +21,14 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/rank0.png" alt="0" width="30" height="30"/></td>
 			<td><a href=libft/>libft</a></td>
 			<td>Library of C functions</td>
-			<td><img src="img/score125.png" alt="125%" width="100" height="32"/></td>
+			<td><img src="img/score125.png" alt="125%" width="100px" height="32px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank1.png" alt="1" width="30" height="30"/></td>
 			<td><a href=get_next_line/>get_next_line</a></td>
 			<td>My implementation of the get_next_line function, similar to the getline from CPP and fgets from C</td>
-			<td><img src="img/small125.png" alt="125%" width="40" height="40"/></td>
+			<td><img src="img/small125.png" alt="125%" width="100px" height="100px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/></td>
 		</tr>
 		<tr>
