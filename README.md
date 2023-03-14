@@ -132,7 +132,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
 			<td><a href=WIP/>webserv</a></td>
-			<td></td>
+			<td>This project is about writing a HTTP server, our own version of Nginx, Apache or Lighttpd.</td>
 			<td><img src="img/small125.png" alt="125%" width="92px" height="30px"/></td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="30px" height="30px"/></td>
 		</tr>
