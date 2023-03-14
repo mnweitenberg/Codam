@@ -126,21 +126,21 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
 			<td><a href=inception/>inception</a></td>
 			<td>Scalable and stable infrastructure using Docker and Docker Compose.</td>
-			<td>WIP</td>
+			<td><img src="img/small100_125.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain.svg" alt="docker" width="30px" height="30px"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
 			<td><a href=WIP/>webserv</a></td>
 			<td></td>
-			<td>WIP</td>
+			<td><img src="img/small125.png" alt="125%" width="92px" height="30px"/></td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="30px" height="30px"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
 			<td><a href=exam_rank_05/>exam_rank_05</a></td>
-			<td></td>
-			<td>WIP</td>
+			<td>In two hours time (without an internet connection) we had to write 2 program</td>
+			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
 		<tr>
@@ -148,7 +148,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><a href=ft_trancendenceP/>ft_trancendence</a></td>
 			<td></td>
 			<td>WIP</td>
-			<td><img src="" alt="" width="30px" height="30px"/></td>
+			<td><img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="typescript" width="30px" height="30px"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank6.png" alt="5" width="30" height="30"/></td>
