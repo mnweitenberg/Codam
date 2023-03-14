@@ -12,7 +12,7 @@ ft_printf is an individual project at [Codam](codam.nl) that requires us to crea
 - Algorithms & AI
 
 #### My grade
-<img src="../img/score125.png"/>
+<img src="../img/score125.png" width="200" height="64"/>
 
 ## Getting started
 **Follow the steps below**
