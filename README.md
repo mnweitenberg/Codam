@@ -12,7 +12,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<th><h4>Rank</h4></th>
 			<th><h4>Project</h4></th>
 			<th><h4>Description</h4></th>
-			<th><h4>Mark</h4></th>
+			<th style="width:105px;"><h4>Mark</h4></th>
 			<th><h4>Language</h4></th>
 		</tr>
 	</thead>
