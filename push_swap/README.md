@@ -19,7 +19,7 @@ As a bonus we must create a program that validates if the operations that the ma
 - Algorithms & AI
 
 #### My grade
-<img src="../img/score125.png" width="150" height="150"/>
+<img src="../img/score125.png" width="200" height="64"/>
 
 ## Getting started
 **Follow the steps below**

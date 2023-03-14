@@ -17,7 +17,7 @@ We had to create a ray tracer from scratch. The only allowed functions are:
 - Algorithms & AI
 
 #### My grade
-<img src="../img/score125.png" width="150" height="150"/>
+<img src="../img/score125.png" width="200" height="64"/>
 
 
 ## Getting started

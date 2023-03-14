@@ -23,7 +23,7 @@ In just two hours (without an internet connection) we have to write a program th
     of "open files" to less than 30.
 
 #### My grade
-<img src="../img/score100.png" width="150" height="150"/>
+<img src="../img/score100.png" width="200" height="64"/>
 
 ---
 

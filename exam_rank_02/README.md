@@ -11,7 +11,7 @@ In just two hours we have to write 2 programs:
 | get_next_line |Write a function that will return a line that has been read from the file descriptor fd|read, free, malloc|:star::star::star:|
 
 #### My grade
-<img src="../img/score100.png" width="150" height="150"/>
+<img src="../img/score100.png" width="200" height="64"/>
 
 ---
 

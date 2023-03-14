@@ -77,6 +77,6 @@ CPP is the name of the [C++](https://en.wikipedia.org/wiki/C%2B%2B) mini pool at
 - Rigor
 
 #### My grade
-<img src="../img/score100.png" width="150" height="150"/>
+<img src="../img/score100.png" width="200" height="64"/>
 
 Made by Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

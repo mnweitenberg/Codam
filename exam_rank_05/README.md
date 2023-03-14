@@ -5,7 +5,7 @@ In three hours (without internet connection) we have to write 2 programs:
 
 
 #### My grade
-<img src="../img/score100.png" width="150" height="150"/>
+<img src="../img/score100.png" width="200" height="64"/>
 
 ---
 

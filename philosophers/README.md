@@ -21,7 +21,7 @@ The problem consists of five philosophers sitting around a circular dinner table
 - Unix
 
 #### My grade
-<img src="../img/score125.png" width="150" height="150"/>
+<img src="../img/score125.png" width="200" height="64"/>
 
 
 ## Getting started

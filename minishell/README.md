@@ -21,7 +21,7 @@ This is the first project at Codam where we need to work in a group, getting clo
 - Unix
 
 #### Our grade
-<img src="../img/score125.png" width="150" height="150"/>
+<img src="../img/score125.png" width="200" height="64"/>
 
 ## Getting started
 **Follow the steps below**

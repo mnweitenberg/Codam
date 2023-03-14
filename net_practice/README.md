@@ -12,6 +12,6 @@ For a more detailed explanation of the subject and it's solutions, take a look a
 - Rigor
 
 #### My grade
-<img src="../img/score100.png" width="150" height="150"/>
+<img src="../img/score100.png" width="200" height="64"/>
 
 Made by: Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)
