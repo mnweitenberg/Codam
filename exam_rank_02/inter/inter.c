@@ -2,8 +2,7 @@
 
 int char_is_in_str_2(char c, char *str)
 {
-	while(*str)
-	{
+	while(*str) {
 		if (*str++ == c)
 			return (1);
 	}
@@ -12,8 +11,7 @@ int char_is_in_str_2(char c, char *str)
 
 int char_has_been_printed(char c, char *str, int len)
 {
-	while(len--)
-	{
+	while(len--) {
 		if (str[len] == c)
 			return (1);
 	}
@@ -22,13 +20,11 @@ int char_has_been_printed(char c, char *str, int len)
 
 int	main(int argc, char **argv)
 {
-	if (argc == 3)
-	{
+	if (argc == 3) {
 		char *one	= argv[1];
 		char *two	= argv[2];
 		int			i = 0;
-		while (one[i])
-		{
+		while (one[i]) {
 			if (char_is_in_str_2(one[i], two)
 				&& !char_has_been_printed(one[i], one, i))
 				write(1, &one[i], 1);

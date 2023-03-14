@@ -1,0 +1,20 @@
+Assignment name   : 01_addinf
+Expected files    : addinf.c addinf.h
+Allowed functions : malloc, write, free
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings as input. 
+The strings represent an infitely large number.
+Your program adds the two numbers and prints it to the console (followed by newline).
+
+The input will always be correct (no error handling required).
+
+for example:
+./addinf "897895" "23598723598" | cat -e
+23599621493$
+
+./addinf "-897895" "-23598723598" | cat -e
+-23599621493$
+
+./addinf "897895" "-23598723598" | cat -e
+-23597825703$

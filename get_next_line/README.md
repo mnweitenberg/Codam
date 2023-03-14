@@ -63,4 +63,4 @@ clang get_next_line.c get_next_line.h get_next_line_utils.c main.c
 
 ```
 
-Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

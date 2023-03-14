@@ -1,5 +1,5 @@
 # Exam rank 04
-In just two hours we have to write a program that will behaved like executing a shell command
+In just two hours (without an internet connection) we have to write a program that will behaved like executing a shell command
 -   The command line to execute will be the arguments of this program
 -   Executable's path will be absolute or relative but your program must not 
     build a path (from the PATH variable for example)
@@ -27,4 +27,4 @@ In just two hours we have to write a program that will behaved like executing a 
 
 ---
 
-Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

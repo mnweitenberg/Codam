@@ -160,4 +160,4 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 	</tbody>
 </table>
 	
-Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

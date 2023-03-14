@@ -20,8 +20,7 @@ void	ft_strlcpy(char *dst, const char *src, int size)
 int	count_no_of_strings(char *str, char delimiter)
 {
 	int count = 0;
-	while (*str)
-	{
+	while (*str) {
 		while (*str && *str == delimiter)
 			str += 1;
 		if (*str && *str != delimiter)
@@ -49,8 +48,7 @@ char **ft_split(char *str, char delimiter)
 	int i = 0;
 	int no_of_strings = count_no_of_strings(str, delimiter);
 	char **str_array = (char **)malloc(sizeof(char *) * (no_of_strings + 1));
-	while (i < no_of_strings)
-	{
+	while (i < no_of_strings) {
 		while (*str && *str == delimiter)
 			str += 1;
 		str_array[i] = copy_str(str, delimiter);

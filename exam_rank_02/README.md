@@ -15,4 +15,4 @@ In just two hours we have to write 2 programs:
 
 ---
 
-Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

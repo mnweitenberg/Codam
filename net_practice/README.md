@@ -14,4 +14,4 @@ For a more detailed explanation of the subject and it's solutions, take a look a
 #### My grade
 <img src="../img/score100.png" width="150" height="150"/>
 
-Made by: Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by: Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

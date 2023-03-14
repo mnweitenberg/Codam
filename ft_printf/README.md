@@ -191,4 +191,4 @@ The table below lists commonly used implemented format specifiers:
 
 ---
 
-Made by Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)

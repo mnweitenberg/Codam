@@ -18,7 +18,7 @@ int	ft_strlen(const char *str)
 
 int ft_max(int a, int b)
 {
-	if (a > b)
+	if (a > b) 
 		return a;
 	return b;
 }
@@ -27,18 +27,21 @@ int	ft_atoi(const char **str)
 {
 	int number = 0;
 	int polarity = 1;
+
 	while (**str == ' ')
 		*str += 1;
+
 	if (**str == '-')
 		polarity = -1;
 	if (**str == '-'|| **str== '+')
 		*str += 1;
-	while (**str >= '0' && **str <= '9')
-	{
+
+	while (**str >= '0' && **str <= '9') {
 		number *= 10;
 		number += **str - '0';
 		*str += 1;
 	}
+
 	return (number * polarity);
 }
 
@@ -52,19 +55,21 @@ int print_str(t_flags *f, char *str)
 {
 	if (str == NULL)
 		str = "(null)";
+
 	int size = ft_strlen(str);
 	if (f->precision >= 0 && f->precision < size)
 		size = f->precision;
+
 	write_padding(' ', f->min_width - size);
 	write(1, str, size);
+
 	return (ft_max(f->min_width, size));
 }
 
 void convert_base(char **int_as_str, long value, char *charachters, int base)
 {
 	**int_as_str = 0;
-	while (value > 0)
-	{
+	while (value > 0) {
 		*int_as_str -= 1;
 		**int_as_str = charachters[value % base];
 		value /= base;
@@ -85,21 +90,25 @@ int print_int(t_flags *f, long value)
 {
 	char buffer[20];
 	char *int_as_str = buffer + 19;
+
 	convert_int_to_str(f->specifier, &int_as_str, value);
+
 	if (f->precision < 0)
 		f->precision = 1;
 	int size = ft_strlen(int_as_str);
 	int size_plus_precision = ft_max(size, f->precision);
-	if (value < 0)
-	{
+
+	if (value < 0) {
 		size_plus_precision++;
 		write_padding(' ', f->min_width - size_plus_precision);
 		write(1, "-", 1);
 	}
 	else
 		write_padding(' ', f->min_width - size_plus_precision);
+
 	write_padding('0', f->precision - size);
 	write(1, int_as_str, size);
+
 	return (ft_max(f->min_width, size_plus_precision));
 }
 
@@ -116,29 +125,26 @@ void	capture_flags(t_flags *f, const char **input, va_list args)
 {
 	f->min_width = ft_atoi(input);
 	f->precision = -1;
-	if (**input == '.')
-	{
+
+	if (**input == '.') {
 		*input += 1;
-		if (**input == '*')
-		{
+		if (**input == '*') {
 			*input += 1;
 			f->precision = va_arg(args, int);
 		}
 		else
 			f->precision = ft_atoi(input);
 	}
+
 	f->specifier = **input;
 	*input += 1;
 }
 
 int	print_conversion(t_flags *f, va_list args)
 {
-	if (f->specifier == 's')
-		return(print_str(f, va_arg(args, char *)));
-	if (f->specifier == 'd')
-		return(print_int(f, va_arg(args, int)));
-	if (f->specifier == 'x')
-		return(print_int(f, va_arg(args, unsigned int)));
+	if (f->specifier == 's') return(print_str(f, va_arg(args, char *)));
+	if (f->specifier == 'd') return(print_int(f, va_arg(args, int)));
+	if (f->specifier == 'x') return(print_int(f, va_arg(args, unsigned int)));
 	return (0);
 }
 
@@ -149,8 +155,8 @@ int ft_printf(const char *input, ... )
 	int		size= 0;
 	int		i;
 	va_start(args, input);
-	while (1)
-	{
+
+	while (1) {
 		i = print_str_until_conversion(input);
 		size += i;
 		if (!input[i])
@@ -159,6 +165,7 @@ int ft_printf(const char *input, ... )
 		capture_flags(&f, &input, args);
 		size += print_conversion(&f, args);
 	}
+
 	va_end(args);
 	return (size);
 }

@@ -41,53 +41,6 @@ void PhoneBook::add() {
 // SEARCH //
 ////////////
 
-// void organize_str_for_print(std::string str){
-// 	if (str.length() <= 10){
-// 		std::cout << std::right << std::setw(10) << str << "|";
-// 	}
-// 	else{
-// 		for (int it = 0; it < 9; it++){
-// 			std::cout << str[it];
-// 		}
-// 		std::cout << "." << "|";
-// 	}
-// }
-
-// void PhoneBook::printOptions(){
-	
-// 	int index = this->it;
-// 	if (index >= 8)
-// 		index = 8;
-
-// 	std::cout << std::right << std::setw(10) << "Index" << "|";
-// 	std::cout << std::right << std::setw(10) << "FirstName" << "|";
-// 	std::cout << std::right << std::setw(10) << "LastName" << "|";
-// 	std::cout << std::right << std::setw(10) << "NickName" << "|";
-// 	std::cout << std::endl << std::endl;
-
-// 	for (int i = 0; i < index; i++){
-// 		std::cout << std::right << std::setw(10) << i << "|";
-// 		organize_str_for_print(this->contacts[i].getContactLine(FIRST_NAME));
-// 		organize_str_for_print(this->contacts[i].getContactLine(LAST_NAME));
-// 		organize_str_for_print(this->contacts[i].getContactLine(NICKNAME));
-// 		std::cout << std::endl;
-// 	}
-// }
-
-
-// void print_found_contact(Contact current){
-
-// 	std::cout << std::endl <<  "---------------------------------------------" << std::endl;
-// 	std::cout << "CONTACT" << std::endl;
-// 	std::cout << "first name:      " << current.getContactLine(FIRST_NAME) << std::endl;
-// 	std::cout << "last name:       " << current.getContactLine(LAST_NAME) << std::endl;
-// 	std::cout << "nickname:        " << current.getContactLine(NICKNAME) << std::endl;
-// 	std::cout << "phone number:    " << current.getContactLine(PHONE_NUMBR) << std::endl;
-// 	std::cout << "darkest secret..." << std::endl << "between us its creepy to collect such data but here we are: "<< std::endl;
-// 	std::cout << "                 " << current.getContactLine(SECRET) << std::endl;
-// 	std::cout << std::endl <<  "---------------------------------------------" << std::endl;
-// }
-
 std::string trimName(std::string fullname) {
 	int	size = (fullname.size() > COLUMN_SIZE) ? COLUMN_SIZE - 1 : COLUMN_SIZE;
 	std::string name = fullname.substr(0, size);

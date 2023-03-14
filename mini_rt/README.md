@@ -50,6 +50,6 @@ make fclean
 
 ---
 
-Made by:
-Jonathan Bedaux. [See my linkedin.](https://www.linkedin.com/in/jonathan-bedaux-62629466/)
-Milan Weitenberg. [See my linkedin.](https://www.linkedin.com/in/mnweitenberg/)
+Made by:  
+Jonathan Bedaux. [See my LinkedIn.](https://www.linkedin.com/in/jonathan-bedaux-62629466/)  
+Milan Weitenberg. [See my LinkedIn.](https://www.linkedin.com/in/mnweitenberg/)
