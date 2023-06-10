@@ -31,7 +31,6 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td>WIP</td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
 			<td><a href=inception>inception</a></td>
@@ -53,8 +52,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-
-<tr>
+		<tr>
 			<td><img src="img/rank4.png" alt="4" width="30" height="30"/></td>
 			<td><a href=cpp>c++ modules</a></td>
 			<td>The C++ modules is designed to help understand the specifities of the language when compared to C and object-oriented programming.</td>
@@ -82,8 +80,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-
-<tr>
+		<tr>
 			<td><img src="img/rank3.png" alt="3" width="30" height="30"/></td>
 			<td><a href=philosophers>philosophers</a></td>
 			<td>In computer science, The Dining Philosopher Problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them.</td>
@@ -104,8 +101,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-
-<tr>
+		<tr>
 			<td><img src="img/rank2.png" alt="2" width="30" height="30"/></td>
 			<td><a href=push_swap>push_swap</a></td>
 			<td>This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting.</td>
@@ -133,7 +129,6 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-		
 		<tr>
 			<td><img src="img/rank1.png" alt="1" width="30" height="30"/></td>
 			<td><a href=get_next_line>get_next_line</a></td>
@@ -155,8 +150,6 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/small125.png" alt="125%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-		
-		
 		<tr>
 			<td><img src="img/rank0.png" alt="0" width="30" height="30"/></td>
 			<td><a href=libft>libft</a></td>
@@ -164,8 +157,6 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/score125.png" alt="125%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
-		
-
 	</tbody>
 </table>
 	
