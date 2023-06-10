@@ -14,23 +14,26 @@ In the mandatory part, a container with [nginx](https://www.nginx.com/resources/
 #### My grade
 <img src="../img/score100_125.png" width="200" height="64"/>
 
-
 ## Getting started
 **Follow the steps below**
-```bash
-# Clone the project and access the folder
-git clone https://github.com/mnweitenberg/codam.git && cd codam/inception
+### Hardware/Software reccomendations
+- create vdi hard disk with 20 GB
+- give the VM more memory (4096 MB), more video memory (128 MB) and more CPU-cores (4 cores at maximum of 100%)
 
-# Run make up so you can build the images and run the containers
-make up
+### Step by step
+- install linux
+- username needs to be 'mweitenb'
+- install all software updates
+- install `git` with `sudo apt install git`
+- clone repo 
+- run install_requirements.sh
+- run `make` in the root of the repository
+- go to `https://mweitenb.42.fr` to access the wordpress site
+- selfsigned ssl certificate may cause safety warning
+- to change the apperance or the contents of the webpage go to `https://mweitenb.42.fr/wp-admin` and use the WP credentials from the .env file
+- the server can be shutdowm by running `make clean` in the root of the repo
+- you can clean the persistent storage by running `make re` in the root of the repo
 
-# Access the default website using the URL below
-https://mweitenb.42.fr
-
-# Clean output images and containers with
-make fclean
-
-```
 
 ---
 
