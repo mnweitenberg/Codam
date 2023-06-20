@@ -19,7 +19,7 @@ CPP is the name of the [C++](https://en.wikipedia.org/wiki/C%2B%2B) mini pool at
 	<tbody>
 		<tr>
 			<td><a href=CPP_module_00/>CPP_module_00</a></td>
-			<td>This first module of C++ is designed to help you understand the specifities of the language when compared to C.</td>
+			<td>This first module of C++ is designed to understand the specifities of the language when compared to C.</td>
 			<td><img src="../img/small99.png" alt="99%" width="40" height="40"/></td>
 		</tr>
 		<tr>
@@ -29,37 +29,42 @@ CPP is the name of the [C++](https://en.wikipedia.org/wiki/C%2B%2B) mini pool at
 		</tr>
 		<tr>
 			<td><a href=CPP_module_02/>CPP_module_02</a></td>
-			<td>This module is designed to help you understand the memory allocation, reference, pointers to members and the usage of the switch in CPP.</td>
+			<td>This module is designed to understand the memory allocation, reference, pointers to members and the usage of the switch in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><a href=CPP_module_03/>CPP_module_03</a></td>
-			<td>This module is designed to help you understand Inheritance in CPP.</td>
+			<td>This module is designed to understand Inheritance in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><a href=CPP_module_04/>CPP_module_04</a></td>
-			<td>This module is designed to help you understand Subtype polymorphism, abstract classes and interfaces in CPP.</td>
+			<td>This module is designed to understand Subtype polymorphism, abstract classes and interfaces in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><a href=CPP_module_05/>CPP_module_05</a></td>
-			<td>This module is designed to help you understand Try/Catch and Exceptions in CPP.</td>
+			<td>This module is designed to understand Try/Catch and Exceptions in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><a href=CPP_module_06/>CPP_module_06</a></td>
-			<td>This module is designed to help you understand the different casts in CPP.</td>
+			<td>This module is designed to understand the different casts in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><a href=CPP_module_07/>CPP_module_07</a></td>
-			<td>This module is designed to help you understand Templates in CPP.</td>
+			<td>This module is designed to understand Templates in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 		<tr>
 			<td><a href=CPP_module_08/>CPP_module_08</a></td>
-			<td>This module is designed to help you understand templated containers, iterators and algorithms in CPP.</td>
+			<td>This module is designed to understand templated containers, iterators and algorithms in CPP.</td>
+			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
+		</tr>
+		<tr>
+			<td><a href=CPP_module_09/>CPP_module_09</a></td>
+			<td>This module is designed to understand STL containers in CPP.</td>
 			<td><img src="../img/small100.png" alt="100%" width="40" height="40"/></td>
 		</tr>
 	</tbody>
