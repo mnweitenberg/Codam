@@ -21,14 +21,14 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 			<td><img src="img/rank6.png" alt="5" width="30" height="30"/></td>
 			<td><a href=ft_transcendence/>ft_trancendence</a></td>
 			<td>ft_transcendence involves developing an online platform to play Pong, utilizing NestJS for the backend, React for the frontend, and PostgreSQL for the database. Users log in using 42 intranet's OAuth system, with support for two-factor authentication, and can enjoy features such as a ranking system, chat channels, private messaging, profile editing, user status viewing, friend requests, and profile customization options.</td>
-			<td>WIP </td>
+			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="typescript" width="30px" height="30px"/></td>
 		</tr>
 		<tr>
 			<td><img src="img/rank6.png" alt="5" width="30" height="30"/></td>
 			<td><a href=exam_rank_06/>exam_rank_06</a></td>
 			<td></td>
-			<td>WIP</td>
+			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
 		<tr>

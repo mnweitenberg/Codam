@@ -15,10 +15,6 @@ The main purpose is to play an implementation of [Pong](https://en.wikipedia.org
 
 Finally, the server structure must be containerized using [docker](https://www.docker.com/) and available with a single call of: **docker-compose up --build**.
 
-### Overview
-WIP
-
-
 #### Skills
 - Rigor
 - Group & interpersonal
