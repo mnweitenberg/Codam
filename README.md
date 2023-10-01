@@ -1,5 +1,6 @@
 # Codam
-All my projects at [Codam Coding College](https://codam.nl). 
+
+All my projects at [Codam Coding College](https://codam.nl).
 
 Maximum score for the mandatory part of every assignment is 100%. </br>
 If the mandatory part is excellent it is possible to score up to 25% bonus points.</br>
@@ -27,7 +28,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		<tr>
 			<td><img src="img/rank6.png" alt="5" width="30" height="30"/></td>
 			<td><a href=exam_rank_06/>exam_rank_06</a></td>
-			<td></td>
+			<td>In three hours time we have to complete two assignments (without an internet connection).</td>
 			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
@@ -48,7 +49,7 @@ The exams contain no bonuses so the maximum absolute score is 100%.</br>
 		<tr>
 			<td><img src="img/rank5.png" alt="5" width="30" height="30"/></td>
 			<td><a href=exam_rank_05/>exam_rank_05</a></td>
-			<td>In two hours time we have to complete two assignments (without an internet connection).</td>
+			<td>In three hours time we have to complete two assignments (without an internet connection).</td>
 			<td><img src="img/small100.png" alt="100%" width="92px" height="30px"/></td>
 			<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="30px" height="30px"/></td>
 		</tr>
