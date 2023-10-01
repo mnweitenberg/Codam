@@ -1,4 +1,5 @@
 # ft_transcendence
+
 ft_transcendence is a project at [Codam](codam.nl) which requires that we build an online platform to play [Pong.](https://en.wikipedia.org/wiki/Pong)
 
 The backend must be built using [NestJS](https://nestjs.com/), the [frontend](https://en.wikipedia.org/wiki/Frontend_and_backend) in any [TypeScript](https://www.typescriptlang.org/) framework of your choice and the database must be [PostgreSQL.](https://www.postgresql.org/) For the [frontend](https://en.wikipedia.org/wiki/Frontend_and_backend), the chosen option was [React](https://reactjs.org/), due to its popularity and extensive documentation.
@@ -16,16 +17,19 @@ The main purpose is to play an implementation of [Pong](https://en.wikipedia.org
 Finally, the server structure must be containerized using [docker](https://www.docker.com/) and available with a single call of: **docker-compose up --build**.
 
 #### Skills
-- Rigor
-- Group & interpersonal
-- Web
+
+-   Rigor
+-   Group & interpersonal
+-   Web
 
 #### My grade
-<img src="../img/score100_100.png" width="200" height="64"/>
 
+<img src="../img/score100.png" width="200" height="64"/>
 
 ## Getting started (Staging)
+
 **Follow the steps below**
+
 ```bash
 # Clone the project and access the folder
 git clone https://github.com/mnweitenberg/codam.git && cd ft_transcendence/
@@ -50,7 +54,6 @@ make clean
 make fclean
 
 ```
-
 
 Made by:  
 Justin Hille. [See my LinkedIn.](https://nl.linkedin.com/in/justin-hille/)  
